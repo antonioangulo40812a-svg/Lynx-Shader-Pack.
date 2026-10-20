@@ -1,0 +1,18 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "ColorPostProcessing:RenderChunk": {
+      "+defines": [ "USE_POST_PROCESSING", "ENABLE_DOF" ],
+      "states": [
+        "DisableDepthTest",
+        "DisableCulling"
+      ],
+      "samplerStates": [
+        {
+          "samplerIndex": 0,
+          "textureFilter": "Bilinear"
+        }
+      ]
+    }
+  }
+}
